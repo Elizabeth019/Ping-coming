@@ -1,0 +1,104 @@
+:root{
+  --Blue: hsl(223, 87%, 63%);
+
+  --Pale-Blue: hsl(223, 100%, 88%);
+--Light-Red: hsl(354, 100%, 66%);
+
+--Gray: hsl(0, 0%, 59%);
+--Very-Dark-Blue: hsl(209, 33%, 12%);
+
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Franklin', sans-serif;
+}
+/* 
+body{
+ 
+  display:flex;
+  align-items: center;
+  justify-content: center;
+} */
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   width: 100%;
+ /* height: 100vh; */
+
+}
+.ping{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 20px;
+}
+.ping span{
+  color: var(--Blue);
+}
+.soon{
+  display: flex;
+  justify-content: center;
+  color: var(--Gray);
+font-weight: 300;
+}
+.soon span{
+  color: var(--Very-Dark-Blue);
+}
+
+.text{
+  display: flex;
+justify-content: center;
+margin: 1rem;
+}
+
+.mail{
+  display:flex;
+  gap: 1rem;
+}
+.it{
+  border-radius: 40px;
+  border: 1px solid var(--Gray);
+  width: 550px;
+}
+.btn{
+  padding: 12px;
+  border-radius: 40px;
+  text-align: center;
+  background-color: var(--Blue);
+  color: white;
+  border: none;
+  width: 180px;
+}
+.imag{
+  display: flex;
+  justify-content: center;
+ margin: 50px;
+}
+.imag img { 
+  max-width: 60%;
+}
+.copy{
+  display: flex;
+  color: var(--Gray);
+}
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
